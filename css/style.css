@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 1920px;
+    min-height: 1024px;
+    margin: 0 auto;
+    background-image: url(../img/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #555556;
+    background-size: cover;
+}
+
+.header-logo-text {
+    font-size: 34px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 220px 0 0;
+}
+
+.global-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserat', sans-serif;
+}
+
+.header-nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 285px 0;
+}
+
+.header-nav-item {
+    margin: 0 30px 0 0;
+}
+
+.header-nav-item:last-child {
+    margin: 0 64px 0 0;
+}
+
+.header-svg {
+    fill: #fff;
+}
+
+.arrow-svg {
+    fill: #fff;
+    opacity: 50%;
+}
+
+.header-arrow-link {
+    margin: 100px 0 0 0;
+}
+
+.header-cart-link {
+    margin: 0 28px 0 0;
+}
+
+.header-slider-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-slider-content-wrapper {
+    margin: 0 475px;
+}
+
+.header-text {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;    
+    text-align: center;
+    margin: 0 0 14px 0;
+}
+
+.header-heading {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;    
+    text-align: center; 
+    margin: 0 0 20px 0;   
+}
+
+.header-text-info {
+    width: 550px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserat', sans-serif;  
+    text-align: center;  
+    margin: 0 0 32px 0; 
+}
+
+.button {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    background-color: #998675;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 38px;
+    display: block;
+    margin: 0 auto 330px auto;
+    text-transform: uppercase;
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+}
+
+.settings-article {
+    width: 260px;
+    text-align: center;
+    margin: 80px 30px 80px 0;
+}
+
+.settings-article:last-child {
+    margin: 80px 0 80px 0;
+}
+
+.settings-svg {
+    fill: #555555;
+    margin: 0 0 30px 0; 
+}
+
+.settings-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+.settings-text {
+    font-family: 'Montserat', sans-serif;  
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 24px;
+}
+
+.settings-text::after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 3px;
+    background-color: #f7f5f2;
+    margin: 30px auto 0 auto; 
+}
+
+.header-pagination {
+    margin: 0 auto;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-pagination-link {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #6b6969;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.header-pagination-link:hover {
+    background-color: transparent;
+    border: 2px solid #6e665f;
+    transform: scale(1.4);
+}
+
+.realization {
+    background-color: #fbfaf8;
+    position: relative;
+    padding: 80px 0 0 0;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.realization-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #555555;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.realization-text {
+    width: 730px;
+    font-family: 'Montserat', sans-serif;  
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto 25px auto;
+}
+
+.realization-img-wrapper {
+    margin: 0 auto;
+    min-height: 482px;
+    max-width: 1240px;
+    background-image: url(../img/realization-center770x482.jpg),
+                        url(../img/realization-left770x400.jpg),
+                        url(../img/realization-right770x400.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%, 0 100%, 100% 100%;
+}
+
+
